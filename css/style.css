@@ -283,10 +283,6 @@ nav {
 	margin-bottom: 60px;
 }
 
-.main-overview {
-	padding-bottom: 108px;
-}
-
 .main__title {
 	font-weight: 700;
 	font-size: 36px;
@@ -453,6 +449,11 @@ nav {
 	border: 2px solid #f6f6f6;
 }
 
+.overview__right-side {
+	padding-bottom: 216px;
+}
+
+
 .feedback {
 	background-color: #2d3239;
 }
@@ -525,12 +526,15 @@ nav {
 
 .email {
 	height: 300px;
+	background: rgba(238, 49, 49, 0.9);
 }
 
 .email__main {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding-top: 99px;
+	color: #fff;
 }
 
 .email__main__title {
@@ -554,6 +558,11 @@ nav {
 .input-text input {
 	width: 100%;
 	height: 50px;
+	padding: 0 15px;
+	color: #000;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 600;
 	border: none;
 }
 
@@ -575,6 +584,50 @@ nav {
 	font-size: 25px;
 }
 
+
+/*/////////////////CARD////////////*/
+
+.cart {
+	padding-top: 77px;
+	background-image: url(../image/Pattern.png);
+	transition: all 0.3s;
+}
+
+.card-deck {
+	margin-bottom: 33px;
+}
+
+.trapezoid {
+	max-width: 299px;
+	border-bottom: 50px solid #ee3131;
+	border-right: 50px solid transparent;
+	transform: translateY(-40px);
+}
+
+.cart-title {
+	background: #ee3131;
+	margin-bottom: 0;
+	padding-left: 33px;
+	color: #ffffff;
+	font-family: "Montserrat", sans-serif;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 20px;
+	letter-spacing: 0.36px;
+	transform: translateY(33px);
+}
+
+.cart-text {
+	max-width: 370px;
+	max-height: 215px;
+}
+
+.card-text {
+	margin: 0 auto;
+	margin-bottom: 40px;
+	max-width: 307px;
+	height: 116px;
+}
 
 /*///////////////MEDIA/////////////*/
 
@@ -678,6 +731,11 @@ nav {
 	.overview__left-side__link {
 		width: 200px;
 		height: 80px;
+	}
+
+	.navbar {
+		transform: translateY(30px);
+		z-index: 998;
 	}
 }
 

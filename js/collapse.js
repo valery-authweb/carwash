@@ -5,8 +5,8 @@
  * --------------------------------------------------------------------------
  */
 
-import $ from 'jquery-3.4.1.slim.min'
-import Util from 'bootstrap/js/src/util'
+import $ from 'jquery'
+import Util from 'util'
 
 /**
  * ------------------------------------------------------------------------
