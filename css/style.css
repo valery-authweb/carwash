@@ -23,7 +23,6 @@ a {
 
 img {
 	max-width: 100%;
-	max-height: 100%;
 }
 
 w-100 {
@@ -52,7 +51,8 @@ h6 {
 }
 
 p {
-	margin: 0;
+	margin-bottom: 0;
+	margin-top: 0;
 }
 
 li {
@@ -287,6 +287,7 @@ nav {
 	font-weight: 700;
 	font-size: 36px;
 	padding-bottom: 31px;
+	text-align: center;
 }
 
 .main__title>.red {
@@ -295,7 +296,7 @@ nav {
 
 .main_text {
 	text-align: center;
-	max-width: 70%;
+
 }
 
 .overview__left-side__list {
@@ -314,8 +315,6 @@ nav {
 
 .overview__left-side__link {
 	margin-right: 8px;
-	width: 200px;
-	height: 80px;
 }
 
 .button-active {
@@ -361,14 +360,17 @@ nav {
 .overview__center p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	margin: 0 0 49px 0;
+}
+
+.overview__center__text {
+	margin-bottom: 49px;
 }
 
 .overview__center__tabs {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin: 0 0 51px 0;
+	margin: 0 0 55px 0;
 }
 
 .tabs__item {
@@ -426,7 +428,7 @@ nav {
 }
 
 .overview__center_bottom {
-	padding-bottom: 35px;
+	padding-bottom: 45px;
 }
 
 .button {
@@ -591,6 +593,8 @@ nav {
 	padding-top: 77px;
 	background-image: url(../image/Pattern.png);
 	transition: all 0.3s;
+	color: #333333;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .card-deck {
@@ -647,16 +651,40 @@ nav {
 	}
 
 	.overview__left-side__list {
+
+		margin: 40px 0 120px 0;
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
 		-o-transform: rotate(0deg);
 		-ms-transform: rotate(0deg);
 		transform: rotate(0deg);
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.button-active {
+		width: 100%;
 	}
 
 	.overview__left-side__link {
 		width: 100%;
 		height: 80px;
+	}
+
+	.overview__center__tabs {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.overview__right-side {
+		margin-top: 40px;
+		padding-bottom: 30px;
+	}
+
+	.email__main {
+		padding-top: 20px;
 	}
 }
 
