@@ -637,6 +637,11 @@ nav {
 
 
 @media (max-width: 575px) {
+	
+	img {
+		height: 200px;
+	}
+	
 	.header__navbar>.container {
 		max-width: 100%;
 		padding: 0;
