@@ -638,9 +638,12 @@ nav {
 
 @media (max-width: 575px) {
 	
-	.carousel-item img {
-    		height: 300px;
-  	}
+	  img {
+	    height: 200px;
+	  }
+	  .content__logo img {
+	    height: 100%;
+	  }
 	
 	.header__navbar>.container {
 		max-width: 100%;
