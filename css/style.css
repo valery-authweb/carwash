@@ -638,7 +638,7 @@ nav {
 
 @media (max-width: 575px) {
 	
-	.carusel-item img {
+	.carousel-item img {
     		height: 300px;
   	}
 	
