@@ -638,6 +638,10 @@ nav {
 
 @media (max-width: 575px) {
 	
+	.carusel-item img {
+    		height: 300px;
+  	}
+	
 	.header__navbar>.container {
 		max-width: 100%;
 		padding: 0;
